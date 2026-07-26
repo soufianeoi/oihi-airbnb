@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: oihi-airbnb-backend
+    runtime: node
+    region: oregon
+    rootDir: oihi-airbnb-backend
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: GOOGLE_MAPS_API_KEY
+        sync: false
