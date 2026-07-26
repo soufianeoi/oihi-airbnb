@@ -2,6 +2,29 @@
   "name": "oihi-airbnb-frontend",
   "version": "1.0.0",
   "private": true,
+  "description": "React frontend for Oihi AirBNB — a full-stack hotel booking platform with Google Maps integration",
+  "author": "soufianeoi",
+  "license": "MIT",
+  "homepage": "https://github.com/soufianeoi/oihi-airbnb#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soufianeoi/oihi-airbnb.git",
+    "directory": "oihi-airbnb-frontend"
+  },
+  "bugs": {
+    "url": "https://github.com/soufianeoi/oihi-airbnb/issues"
+  },
+  "keywords": [
+    "react",
+    "airbnb",
+    "hotel-booking",
+    "google-maps",
+    "fullstack",
+    "javascript",
+    "frontend",
+    "hospitality",
+    "booking-system"
+  ],
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -20,5 +43,8 @@
   "browserslist": {
     "production": [">0.2%", "not dead", "not op_mini all"],
     "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
